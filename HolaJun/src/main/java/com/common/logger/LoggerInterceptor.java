@@ -3,12 +3,13 @@ package com.common.logger;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.slf4j.LoggerFactory;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
 
 public class LoggerInterceptor extends HandlerInterceptorAdapter {
-    protected Log log = LogFactory.getLog(LoggerInterceptor.class);
+    protected Log log = LoggerFactory.getLog(LoggerInterceptor.class);
      
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
