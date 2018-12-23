@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_4_0.xsd">
 	
 	<welcome-file-list>
-        <welcome-file>/WEB-INF/views/index.jsp</welcome-file>
+        <!-- <welcome-file>/WEB-INF/views/index.jsp</welcome-file> -->
     </welcome-file-list>
 
 	<!-- 모든 서블릿과 필터가 공유하는 스프링 컨테이너 생성 -->

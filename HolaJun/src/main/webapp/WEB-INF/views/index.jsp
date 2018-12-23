@@ -6,6 +6,7 @@
 	<title>index.jsp</title>
 </head>
 <body>
-<h1> Hello! index.jsp. by holajun  </h1> 
+<h1> Hello! index.jsp. by holajun  </h1>
+value: ${value} 
 </body>
 </html>
