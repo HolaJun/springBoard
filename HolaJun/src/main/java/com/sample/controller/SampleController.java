@@ -13,7 +13,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class SampleController {
 	Logger log = LoggerFactory.getLogger(this.getClass());
     
-	@RequestMapping(value="/main.do")
+	@RequestMapping(value="/")
 	public ModelAndView home() throws Exception {
 		ModelAndView mv = new ModelAndView();
 		mv.setViewName("/home.jsp");
