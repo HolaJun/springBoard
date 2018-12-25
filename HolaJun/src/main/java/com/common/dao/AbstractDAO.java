@@ -15,7 +15,7 @@ public class AbstractDAO {
      
     protected void printQueryId(String queryId) {
         if(log.isDebugEnabled()){
-            log.debug("\t QueryId  \t:  " + queryId);
+            log.debug("\t QueryId \t:  " + queryId);
         }
     }
      
@@ -53,6 +53,6 @@ public class AbstractDAO {
     @SuppressWarnings("rawtypes")
     public List selectList(String queryId, Object params){
         printQueryId(queryId);
-        return sqlSession.selectList(queryId,params);
+        return sqlSession.selectList(queryId, params);
     }
 }
